@@ -4,6 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        screens: {
+          xs: "425"
+        },
         bkg: "#171819",
         muted: "#C9CBCF",
         accent: "#66CCC1"
