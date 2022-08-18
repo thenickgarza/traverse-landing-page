@@ -35,109 +35,415 @@
           </svg>
         </a>
       </nav>
-      <header class="min-h-screen flex flex-col justify-evenly items-center relative">
-        <div class="absolute bg-gradient-to-b inset-0 bottom-3/4 from-accent to-transparent"></div>
-        <div class="absolute bg-gradient-to-t inset-0 top-1/3 bottom-32 from-bkg/80 to-transparent"></div>
+      <header
+        class="min-h-screen flex flex-col justify-evenly items-center relative"
+      >
+        <div
+          class="absolute bg-gradient-to-b inset-0 bottom-3/4 from-accent to-transparent"
+        ></div>
+        <div
+          class="absolute bg-gradient-to-t inset-0 top-1/3 bottom-32 from-bkg/80 to-transparent"
+        ></div>
         <img
-        sizes="(min-width: 500px) 480w, 650w, 800w, 1300w"
-        srcset="./images/hero-xs.jpg 480w, ./images/hero-sm.jpg 650w, ./images/hero-md.jpg 800w, ./images/hero-lg.jpg 1300w"
-        class="absolute h-full w-full -z-20 object-cover object-center"
-        src="./images/hero.jpg" aria-hidden="true">
-        <h1 class="text-5xl text-center font-bold text-white tracking-wide py-12 drop-shadow-text-sm
-        lg:drop-shadow-text-lg">
-          Unique Trips for<br>
-          Adventurous <br>
+          sizes="(min-width: 500px) 480w, 650w, 800w, 1300w"
+          srcset="
+            ./images/hero-xs.jpg  480w,
+            ./images/hero-sm.jpg  650w,
+            ./images/hero-md.jpg  800w,
+            ./images/hero-lg.jpg 1300w
+          "
+          class="absolute h-full w-full -z-20 object-cover object-center"
+          src="./images/hero.jpg"
+          aria-hidden="true"
+        />
+        <h1
+          class="text-5xl text-center font-bold text-white tracking-wide py-12 drop-shadow-text-sm lg:drop-shadow-text-lg"
+        >
+          Unique Trips for<br />
+          Adventurous <br />
           Travelers
         </h1>
-        <a href="#contact-form"
-          class="bg-accent text-bkg font-medium py-3 px-8 rounded-full border border-bkg focus:outline-none 
-          focus-visible:ring-4 ring-accent ring-offset-bkg ring-offset-2 hover:bg-accent/90 flex space-x-2 drop-shadow-lg hover:drop-shadow-none
-          transition-shadow items-center"
+        <a
+          href="#contact-form"
+          class="bg-accent text-bkg font-medium py-3 px-8 rounded-full border border-bkg focus:outline-none focus-visible:ring-4 ring-accent ring-offset-bkg ring-offset-2 hover:bg-accent/90 flex space-x-2 drop-shadow-lg hover:drop-shadow-none transition-shadow items-center"
         >
           <span class="uppercase tracking-wide">Book a Trip</span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><polyline points="96 184 32 200 32 56 96 40" 
-            fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></polyline><polygon points="160 216 96 184 96 40 160 72 160 216" fill="none" stroke="currentColor" stroke-linecap="round" 
-            stroke-linejoin="round" stroke-width="24"></polygon><polyline points="160 72 224 56 224 200 160 216" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></polyline></svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            viewBox="0 0 256 256"
+          >
+            <rect width="256" height="256" fill="none"></rect>
+            <polyline
+              points="96 184 32 200 32 56 96 40"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="24"
+            ></polyline>
+            <polygon
+              points="160 216 96 184 96 40 160 72 160 216"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="24"
+            ></polygon>
+            <polyline
+              points="160 72 224 56 224 200 160 216"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="24"
+            ></polyline>
+          </svg>
         </a>
       </header>
-      <main class="relative mt-16 sm:mt-24 lg:mt-40 pb-16 -mb-16 grid gap-16 sm:gap-24 lg:gap-40 overflow-hidden">
-        <section aria-labelledby="headline" class="container grid gap-4 text-center max-w-prose">
+      <main
+        class="relative mt-16 sm:mt-24 lg:mt-40 pb-16 -mb-16 grid gap-16 sm:gap-24 lg:gap-40 overflow-hidden"
+      >
+        <section
+          aria-labelledby="headline"
+          class="container grid gap-4 text-center max-w-prose"
+        >
           <div>
-            <small class="tracking-widest text-accent uppercase drop-shadow-text-sm">What dreams are made of</small>
-            <h2 id="headline" class="text-3xl font-bold tracking-wide drop-shadow-text-md">Trips for Explorers</h2>
+            <small
+              class="tracking-widest text-accent uppercase drop-shadow-text-sm"
+              >What dreams are made of</small
+            >
+            <h2
+              id="headline"
+              class="text-3xl font-bold tracking-wide drop-shadow-text-md"
+            >
+              Trips for Explorers
+            </h2>
           </div>
-          <p class="text-muted drop-shadow-text-sm">We find once-in-a-lifetime locations and reserve them for travelers full of adventure. Calling all explorers and extremists to the trip of their dreams in the most exotic locations all around the globe.</p>
+          <p class="text-muted drop-shadow-text-sm">
+            We find once-in-a-lifetime locations and reserve them for travelers
+            full of adventure. Calling all explorers and extremists to the trip
+            of their dreams in the most exotic locations all around the globe.
+          </p>
         </section>
-        <section aria-labelledby="slider" class="container grid gap-4 text-center sm:text-left">
+        <section
+          aria-labelledby="slider"
+          class="container grid gap-4 text-center sm:text-left"
+        >
           <div class="relative">
-            <div class="hidden sm:block absolute w-8 bg-accent/10 -left-4 h-full"></div>
-          <div>
-          </div>
-        
-          <div>
-            <small class="tracking-widest text-accent uppercase drop-shadow-text-sm">Off The Beaten Path</small>
-            <h2 id="slider" class="text-3xl font-bold tracking-wide drop-shadow-text-md">Places without People</h2>
-          </div>
-          <div class="flex flex-wrap sm:flex-nowrap justify-center sm:justify-between items-center space-x-4 space-y-4">
-          <p class="text-muted max-w-2xl drop-shadow-text-sm">We specialize in finding places no one else knows about. Here are a few of our favorite spots for true adventurers.</p>
-        <div class="flex space-x-4">
-          <button data-slideBtn id="prev" aria-label="show previus image" class="grid place-items-center bg-accent hover:bg-accent/90 rounded-full p-2 text-bkg focus:outline-none outline-none
-          focus-visible:ring-4 ring-offset-2 ring-offset-bkg ring-accent" disabled>
-            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" viewBox="0 0 256 256">
-              <rect width="256" heigh="256" class="pointer-events-none" fill="none">
-              </rect><circle cx="128" cy="128" r="96" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" 
-              stroke-width="24"></circle><polyline points="121.9 161.9 88 128 121.9 94.1" fill="none" stroke="currentColor" stroke-linecap="round" 
-              stroke-linejoin="round" stroke-width="24"></polyline><line x1="168" y1="128" x2="88" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" 
-              stroke-linejoin="round" stroke-width="24"></line></svg>
-          </button>
-          <button data-slideBtn id="next" aria-label="show next image" class="grid place-items-center bg-accent hover:bg-accent/90 rounded-full p-2 text-bkg focus:outline-none outline-none
-          focus-visible:ring-4 ring-offset-2 ring-offset-bkg ring-accent disabled:bg-accent/20 disabled:text-accent">
-            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" class="pointer-events-none" fill="currentColor" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect>
-              <circle cx="128" cy="128" r="96" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></circle>
-              <polyline points="134.1 161.9 168 128 134.1 94.1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></polyline>
-              <line x1="88" y1="128" x2="168" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line>
-            </svg>
-          </button>
-        </div>  
-        </div>
+            <div
+              class="hidden sm:block absolute w-8 bg-accent/10 -left-4 h-full"
+            ></div>
+            <div></div>
+
+            <div>
+              <small
+                class="tracking-widest text-accent uppercase drop-shadow-text-sm"
+                >Off The Beaten Path</small
+              >
+              <h2
+                id="slider"
+                class="text-3xl font-bold tracking-wide drop-shadow-text-md"
+              >
+                Places without People
+              </h2>
+            </div>
+            <div
+              class="flex flex-wrap sm:flex-nowrap justify-center sm:justify-between items-center space-x-4 space-y-4"
+            >
+              <p class="text-muted max-w-2xl drop-shadow-text-sm">
+                We specialize in finding places no one else knows about. Here
+                are a few of our favorite spots for true adventurers.
+              </p>
+              <div class="flex space-x-4">
+                <button
+                  data-slideBtn
+                  id="prev"
+                  aria-label="show previus image"
+                  class="grid place-items-center bg-accent hover:bg-accent/90 rounded-full p-2 text-bkg focus:outline-none outline-none focus-visible:ring-4 ring-offset-2 ring-offset-bkg ring-accent"
+                  disabled
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="36"
+                    height="36"
+                    fill="currentColor"
+                    viewBox="0 0 256 256"
+                  >
+                    <rect
+                      width="256"
+                      heigh="256"
+                      class="pointer-events-none"
+                      fill="none"
+                    ></rect>
+                    <circle
+                      cx="128"
+                      cy="128"
+                      r="96"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="24"
+                    ></circle>
+                    <polyline
+                      points="121.9 161.9 88 128 121.9 94.1"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="24"
+                    ></polyline>
+                    <line
+                      x1="168"
+                      y1="128"
+                      x2="88"
+                      y2="128"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="24"
+                    ></line>
+                  </svg>
+                </button>
+                <button
+                  data-slideBtn
+                  id="next"
+                  aria-label="show next image"
+                  class="grid place-items-center bg-accent hover:bg-accent/90 rounded-full p-2 text-bkg focus:outline-none outline-none focus-visible:ring-4 ring-offset-2 ring-offset-bkg ring-accent disabled:bg-accent/20 disabled:text-accent"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="36"
+                    height="36"
+                    class="pointer-events-none"
+                    fill="currentColor"
+                    viewBox="0 0 256 256"
+                  >
+                    <rect width="256" height="256" fill="none"></rect>
+                    <circle
+                      cx="128"
+                      cy="128"
+                      r="96"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="24"
+                    ></circle>
+                    <polyline
+                      points="134.1 161.9 168 128 134.1 94.1"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="24"
+                    ></polyline>
+                    <line
+                      x1="88"
+                      y1="128"
+                      x2="168"
+                      y2="128"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="24"
+                    ></line>
+                  </svg>
+                </button>
+              </div>
+            </div>
           </div>
         </section>
-        <div class="-mt-10 sm:-mt-20 lg:-mt-36 container xs:w-screen ">
-          <div class="flex transition-transform duration-500" data-slideContainer>
-            <div class="relative xs:w-auto flex-grow flex-shrink-0 xs:basis-96 pr-4" data-slide>
-              <img loading="lazy" class="object-cover h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer" src="./images/slider-1.jpg" alt="Iceland Scene">
-              <p class="absolute bottom-4 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity">Ocean Wonders</p>
+        <div class="-mt-10 sm:-mt-20 lg:-mt-36 container xs:w-screen">
+          <div
+            class="flex transition-transform duration-500"
+            data-slideContainer
+          >
+            <div
+              class="relative xs:w-auto flex-grow flex-shrink-0 xs:basis-96 pr-4"
+              data-slide
+            >
+              <img
+                loading="lazy"
+                class="object-cover h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer"
+                src="./images/slider-1.jpg"
+                alt="Iceland Scene"
+              />
+              <p
+                class="absolute bottom-4 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity"
+              >
+                Ocean Wonders
+              </p>
             </div>
-            <div class="relative xs:w-auto flex-grow flex-shrink-0 xs:basis-96 pr-4" data-slide>
-              <img loading="lazy" class="object-cover h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer" src="./images/slider-2.jpg" alt="Iceland Scene">
-              <p class="absolute bottom-4 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity">Waterfall Cave</p>
+            <div
+              class="relative xs:w-auto flex-grow flex-shrink-0 xs:basis-96 pr-4"
+              data-slide
+            >
+              <img
+                loading="lazy"
+                class="object-cover h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer"
+                src="./images/slider-2.jpg"
+                alt="Iceland Scene"
+              />
+              <p
+                class="absolute bottom-4 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity"
+              >
+                Waterfall Cave
+              </p>
             </div>
-            <div class="relative xs:w-auto flex-grow flex-shrink-0 xs:basis-96 pr-4" data-slide>
-              <img loading="lazy" class="object-cover h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer" src="./images/slider-3.jpg" alt="Iceland Scene">
-              <p class="absolute bottom-4 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity">Rainbow Falls</p>
+            <div
+              class="relative xs:w-auto flex-grow flex-shrink-0 xs:basis-96 pr-4"
+              data-slide
+            >
+              <img
+                loading="lazy"
+                class="object-cover h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer"
+                src="./images/slider-3.jpg"
+                alt="Iceland Scene"
+              />
+              <p
+                class="absolute bottom-4 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity"
+              >
+                Rainbow Falls
+              </p>
             </div>
-            <div class="relative xs:w-auto flex-grow flex-shrink-0 xs:basis-96 pr-4" data-slide>
-              <img loading="lazy" class="object-cover h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer" src="./images/slider-4.jpg" alt="Iceland Scene">
-              <p class="absolute bottom-4 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity">Canyon Peaks</p>
+            <div
+              class="relative xs:w-auto flex-grow flex-shrink-0 xs:basis-96 pr-4"
+              data-slide
+            >
+              <img
+                loading="lazy"
+                class="object-cover h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer"
+                src="./images/slider-4.jpg"
+                alt="Iceland Scene"
+              />
+              <p
+                class="absolute bottom-4 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity"
+              >
+                Canyon Peaks
+              </p>
             </div>
-            <div class="relative xs:w-auto flex-grow flex-shrink-0 xs:basis-96 pr-4" data-slide>
-              <img loading="lazy" class="object-cover h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer" src="./images/slider-5.jpg" alt="Iceland Scene">
-              <p class="absolute bottom-4 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity">Mountain Inlet</p>
+            <div
+              class="relative xs:w-auto flex-grow flex-shrink-0 xs:basis-96 pr-4"
+              data-slide
+            >
+              <img
+                loading="lazy"
+                class="object-cover h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer"
+                src="./images/slider-5.jpg"
+                alt="Iceland Scene"
+              />
+              <p
+                class="absolute bottom-4 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity"
+              >
+                Mountain Inlet
+              </p>
             </div>
-            <div class="relative xs:w-auto flex-grow flex-shrink-0 xs:basis-96 pr-4" data-slide>
-              <img loading="lazy" class="object-cover h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer" src="./images/slider-6.jpg" alt="Iceland Scene">
-              <p class="absolute bottom-4 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity">Angel Cliffs</p>
+            <div
+              class="relative xs:w-auto flex-grow flex-shrink-0 xs:basis-96 pr-4"
+              data-slide
+            >
+              <img
+                loading="lazy"
+                class="object-cover h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer"
+                src="./images/slider-6.jpg"
+                alt="Iceland Scene"
+              />
+              <p
+                class="absolute bottom-4 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity"
+              >
+                Angel Cliffs
+              </p>
             </div>
-            <div class="relative xs:w-auto flex-grow flex-shrink-0 xs:basis-96 pr-4" data-slide>
-              <img loading="lazy" class="object-cover h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer" src="./images/slider-7.jpg" alt="Iceland Scene">
-              <p class="absolute bottom-4 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity">Aurora Sound</p>
+            <div
+              class="relative xs:w-auto flex-grow flex-shrink-0 xs:basis-96 pr-4"
+              data-slide
+            >
+              <img
+                loading="lazy"
+                class="object-cover h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer"
+                src="./images/slider-7.jpg"
+                alt="Iceland Scene"
+              />
+              <p
+                class="absolute bottom-4 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity"
+              >
+                Aurora Sound
+              </p>
             </div>
-            <div class="relative xs:w-auto flex-grow flex-shrink-0 xs:basis-96" data-slide>
-              <img loading="lazy" class="object-cover h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer" src="./images/slider-8.jpg" alt="Iceland Scene">
-              <p class="absolute bottom-4 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity">Icy Meadows</p>
+            <div
+              class="relative xs:w-auto flex-grow flex-shrink-0 xs:basis-96"
+              data-slide
+            >
+              <img
+                loading="lazy"
+                class="object-cover h-full [@media(hover:hover)]:grayscale hover:grayscale-0 transition-all peer"
+                src="./images/slider-8.jpg"
+                alt="Iceland Scene"
+              />
+              <p
+                class="absolute bottom-4 left-4 px-4 py-2 bg-bkg font-bold text-lg pointer-events-none tracking-wide [@media(hover:hover)]:opacity-0 peer-hover:opacity-100 transition-opacity"
+              >
+                Icy Meadows
+              </p>
             </div>
           </div>
         </div>
+        <section
+          aria-labelledby="map"
+          class="container flex flex-wrap md:space-x-16 space-y-12 md:space-y-0 justify-between items-center"
+        >
+          <img
+            src="./images/map.png"
+            alt="Map"
+            width="400"
+            class="grow md:flex-1"
+            loading="lazy"
+          />
+          <div class="grid gap-4 text-center md:text-left grow md:flex-1">
+            <div class="relative">
+              <div
+                class="hidden md:block absolute w-8 bg-accent/10 -left-4 h-full"
+              ></div>
+              <small class="tracking-widest text-accent uppercase"
+                >A globe of possibilities</small
+              >
+              <h2 id="map" class="text-3xl font-bold tracking-wide">
+                Happy Travelers<br />the World Over
+              </h2>
+            </div>
+            <p class="text-muted max-w-2xl">
+              Don't take our word for it! Thousands of adventurous travelers
+              have enjoyed more than 250 exotic locations all over the globe!
+            </p>
+          </div>
+        </section>
+        <section
+        aria-labelledby="cta"
+        class="container grid gap-4 text-center max-w-prose"
+      >
+          <div>
+            <small class="tracking-widest text-accent uppercase"
+              >Time to Explore</small
+            >
+            <h2 id="cta" class="text-3xl font-bold tracking-wide">
+              Hidden Locations
+            </h2>
+          </div>
+          <p class="text-muted max-w-2xl ,x-auto">
+            Not sure where to start? Drop us a line, and we'll send you new locations before they're shown on our website.
+          </p>
+          <form id="contact-form" class="border-4 border-accent rounded-full p-1 flex items-center justify-between max-w-md mx-auto">
+            <input type="email" required placeholder="Email Address" class="p-2 mx-4 bg-transparent w-full text-sm flex-1 border-b-2 border-transparent rounded-none caret-accent placeholer:text-white focus:placeholer:text-muted focus:outline none focus:border-accent">
+            <label for="email"></label>
+            <button></button>
+          </form>
+      </section>
       </main>
     </div>
     <script type="module" src="/main.js"></script>
